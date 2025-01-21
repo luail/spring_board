@@ -1,7 +1,9 @@
 package com.example.board.board.author.controller;
 
+import com.example.board.board.author.dtos.AuthorDetail;
 import com.example.board.board.author.dtos.AuthorListRes;
 import com.example.board.board.author.dtos.AuthorSaveReq;
+import com.example.board.board.author.dtos.AuthorUpdate;
 import com.example.board.board.author.service.AuthorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -24,5 +26,22 @@ public class AuthorController {
     @GetMapping("/list")
     public List<AuthorListRes> authorList() {
         return authorService.findAll();
+    }
+
+    @GetMapping("/delete/{id}")
+    public String authorDelete(@PathVariable Long id) {
+        authorService.delete(id);
+        return "OK";
+    }
+
+    @GetMapping("/detail/{id}")
+    public AuthorDetail authorDetail(@PathVariable Long id) {
+        return authorService.authorDetail(id);
+    }
+
+    @PostMapping("/update/{id}")
+    public String authorUpdate(@PathVariable Long id, @ModelAttribute AuthorUpdate authorUpdate) {
+        authorService.update(id, authorUpdate);
+        return "OK";
     }
 }
