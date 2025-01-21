@@ -1,9 +1,9 @@
 package com.example.board.board.author.controller;
 
-import com.example.board.board.author.dtos.AuthorDetail;
+import com.example.board.board.author.dtos.AuthorDetailRes;
 import com.example.board.board.author.dtos.AuthorListRes;
 import com.example.board.board.author.dtos.AuthorSaveReq;
-import com.example.board.board.author.dtos.AuthorUpdate;
+import com.example.board.board.author.dtos.AuthorUpdateReq;
 import com.example.board.board.author.service.AuthorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -35,12 +35,12 @@ public class AuthorController {
     }
 
     @GetMapping("/detail/{id}")
-    public AuthorDetail authorDetail(@PathVariable Long id) {
+    public AuthorDetailRes authorDetail(@PathVariable Long id) {
         return authorService.authorDetail(id);
     }
 
     @PostMapping("/update/{id}")
-    public String authorUpdate(@PathVariable Long id, @ModelAttribute AuthorUpdate authorUpdate) {
+    public String authorUpdate(@PathVariable Long id, @ModelAttribute AuthorUpdateReq authorUpdate) {
         authorService.update(id, authorUpdate);
         return "OK";
     }

@@ -1,8 +1,8 @@
 package com.example.board.board.author.domain;
 
-import com.example.board.board.author.dtos.AuthorDetail;
+import com.example.board.board.author.dtos.AuthorDetailRes;
 import com.example.board.board.author.dtos.AuthorListRes;
-import com.example.board.board.author.dtos.AuthorUpdate;
+import com.example.board.board.author.dtos.AuthorUpdateReq;
 import com.example.board.board.common.domain.BaseTimeEntity;
 import com.example.board.board.post.domain.Post;
 import lombok.AllArgsConstructor;
@@ -45,11 +45,11 @@ public class Author extends BaseTimeEntity {
         return AuthorListRes.builder().id(this.id).name(this.name).email(this.email).build();
     }
 
-    public AuthorDetail detailDtoFromEntity() {
-        return AuthorDetail.builder().id(this.id).name(this.name).email(this.email).password(this.password).role(this.role).postCount(this.posts.size()).createdTime(this.getCreateTime()).build();
+    public AuthorDetailRes detailDtoFromEntity() {
+        return AuthorDetailRes.builder().id(this.id).name(this.name).email(this.email).password(this.password).role(this.role).postCount(this.posts.size()).createdTime(this.getCreateTime()).build();
     }
 
-    public void updateProfile(AuthorUpdate authorUpdate) {
+    public void updateProfile(AuthorUpdateReq authorUpdate) {
         this.name = authorUpdate.getName();
         this.password = authorUpdate.getPassword();
     }

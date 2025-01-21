@@ -1,12 +1,11 @@
 package com.example.board.board.author.service;
 
 import com.example.board.board.author.domain.Author;
-import com.example.board.board.author.dtos.AuthorDetail;
+import com.example.board.board.author.dtos.AuthorDetailRes;
 import com.example.board.board.author.dtos.AuthorListRes;
 import com.example.board.board.author.dtos.AuthorSaveReq;
-import com.example.board.board.author.dtos.AuthorUpdate;
+import com.example.board.board.author.dtos.AuthorUpdateReq;
 import com.example.board.board.author.repository.AuthorRepository;
-import com.example.board.board.post.domain.Post;
 import com.example.board.board.post.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -50,11 +49,11 @@ public class AuthorService {
         authorRepository.delete(author);
     }
 
-    public AuthorDetail authorDetail(Long id) {
+    public AuthorDetailRes authorDetail(Long id) {
         return authorRepository.findById(id).orElseThrow(()->new EntityNotFoundException("author is not found")).detailDtoFromEntity();
     }
 
-    public void update(Long id, AuthorUpdate authorUpdate) {
+    public void update(Long id, AuthorUpdateReq authorUpdate) {
         Author author = authorRepository.findById(id).orElseThrow(()->new EntityNotFoundException("author is not found"));
         author.updateProfile(authorUpdate);
 //        기존객체에 변경이 발생할 경우, 별도의 save 없이도 jpa가 엔티티의 변경을 자동인지하고, 변경사항을 DB반영
