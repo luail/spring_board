@@ -8,6 +8,8 @@ import com.example.board.board.post.dtos.PostListRes;
 import com.example.board.board.post.dtos.PostSaveReq;
 import com.example.board.board.post.dtos.PostUpdateReq;
 import com.example.board.board.post.repository.PostRepository;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -34,6 +36,11 @@ public class PostService {
 
     public List<PostListRes> findAll() {
         return postRepository.findAll().stream().map(p->p.postListResFromEntity()).collect(Collectors.toList());
+    }
+
+    public Page<PostListRes> findAllPaging(Pageable pageable) {
+        Page<Post> pagePosts = postRepository.findAll(pageable);
+        return pagePosts.map(p->p.postListResFromEntity());
     }
 
     public PostDetailRes findById(Long id) {

@@ -6,26 +6,35 @@ import com.example.board.board.author.dtos.AuthorSaveReq;
 import com.example.board.board.author.dtos.AuthorUpdateReq;
 import com.example.board.board.author.service.AuthorService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.List;
 
-@RestController
+@Controller
 @RequiredArgsConstructor
 @RequestMapping("/author")
 public class AuthorController {
     private final AuthorService authorService;
 
+    @GetMapping("/create")
+    public String authorCreate() {
+        return "author/author_create";
+    }
+
     @PostMapping("/create")
     public String authorCreate(@ModelAttribute @Valid AuthorSaveReq authorSaveReq) {
         authorService.save(authorSaveReq);
-        return "OK";
+        return "redirect:/";
     }
 
     @GetMapping("/list")
-    public List<AuthorListRes> authorList() {
-        return authorService.findAll();
+    public String authorList(Model model) {
+        List<AuthorListRes> authorListRes = authorService.findAll();
+        model.addAttribute("authorList", authorListRes);
+        return "author/author_list";
     }
 
     @GetMapping("/delete/{id}")
@@ -35,8 +44,10 @@ public class AuthorController {
     }
 
     @GetMapping("/detail/{id}")
-    public AuthorDetailRes authorDetail(@PathVariable Long id) {
-        return authorService.authorDetail(id);
+    public String authorDetail(@PathVariable Long id, Model model) {
+        AuthorDetailRes dto = authorService.authorDetail(id);
+        model.addAttribute("author", dto);
+        return "author/author_detail";
     }
 
     @PostMapping("/update/{id}")
