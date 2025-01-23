@@ -27,7 +27,7 @@ public class Post extends BaseTimeEntity {
     private String title;
     @Column(length = 3000)
     private String contents;
-    private String appoinment;
+    private String appointment;
     private LocalDateTime appointmentTime;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "author_id")
@@ -44,5 +44,9 @@ public class Post extends BaseTimeEntity {
     public void update(PostUpdateReq dto) {
         this.title = dto.getTitle();
         this.contents = dto.getContents();
+    }
+
+    public void updateAppointmentToN(String appointment) {
+        this.appointment = appointment;
     }
  }

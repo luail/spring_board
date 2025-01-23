@@ -1,5 +1,6 @@
 package com.example.board.board.post.controller;
 
+import com.example.board.board.post.domain.Post;
 import com.example.board.board.post.dtos.PostDetailRes;
 import com.example.board.board.post.dtos.PostListRes;
 import com.example.board.board.post.dtos.PostSaveReq;
@@ -34,7 +35,7 @@ public class PostController {
     @PostMapping("/create")
     public String postCreate(@Valid @ModelAttribute PostSaveReq dto) {
         postService.save(dto);
-        return "redirect:/post/list";
+        return "redirect:/post/list/paging";
     }
 
     @GetMapping("/list")
@@ -49,6 +50,12 @@ public class PostController {
     public String postListPaging(Model model, @PageableDefault(size = 10, sort = "createTime",direction = Sort.Direction.DESC) Pageable pageable) {
         model.addAttribute("postList", postService.findAllPaging(pageable));
         return"/post/post_list";
+    }
+
+    @GetMapping("/list/fetchjoin")
+    @ResponseBody
+    public List<PostListRes> postListFetchjoin() {
+         return postService.listFetchJoin();
     }
 
     @GetMapping("/detail/{id}")
