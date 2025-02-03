@@ -10,6 +10,8 @@ import com.example.board.board.post.dtos.PostUpdateReq;
 import com.example.board.board.post.repository.PostRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -32,7 +34,8 @@ public class PostService {
 
 
     public void save(PostSaveReq dto) throws EntityNotFoundException {
-        Author author = authorRepository.findByEmail(dto.getEmail()).orElseThrow(() -> new EntityNotFoundException("author is not found"));
+        String email = SecurityContextHolder.getContext().getAuthentication().getName();
+        Author author = authorRepository.findByEmail(email).orElseThrow(() -> new EntityNotFoundException("author is not found"));
         LocalDateTime appointmentTime = null;
         if (dto.getAppointment().equals("Y")) {
             if (dto.getAppointmentTime().isEmpty() || dto.getAppointmentTime() == null) {
@@ -45,8 +48,8 @@ public class PostService {
                     throw new IllegalArgumentException("시간이 과거입니다.");
                 }
             }
-            postRepository.save(dto.toEntity(author, appointmentTime));
         }
+        postRepository.save(dto.toEntity(author, appointmentTime));
     }
 
     public List<PostListRes> findAll() {

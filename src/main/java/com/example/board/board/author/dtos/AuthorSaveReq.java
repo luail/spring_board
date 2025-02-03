@@ -30,7 +30,7 @@ public class AuthorSaveReq {
     @Builder.Default
     private Role role = Role.USER;
 
-    public Author toEntity() {
-        return Author.builder().name(this.name).email(this.email).password(this.password).role(this.role).build();
+    public Author toEntity(String encodedPassword) {
+        return Author.builder().name(this.name).email(this.email).password(encodedPassword).role(this.role).build();
     }
 }
