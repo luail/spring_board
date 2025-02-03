@@ -1,0 +1,571 @@
+2025-01-24 09:42 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 09:42 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 18040 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 09:42 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 09:42 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 09:42 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2025-01-24 09:42 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 09:42 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 09:42 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 09:42 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 09:42 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 09:42 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1843 ms
+2025-01-24 09:42 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 09:42 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 09:42 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 09:42 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 09:42 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 09:42 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 09:42 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 09:42 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 09:42 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 09:42 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 5a3476fc-0eaf-435b-bb85-646c4496b751
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-01-24 09:42 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3d6745ed, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@600e2000, org.springframework.security.web.context.SecurityContextPersistenceFilter@606f0f70, org.springframework.security.web.header.HeaderWriterFilter@60251ddb, org.springframework.security.web.csrf.CsrfFilter@38394e76, org.springframework.security.web.authentication.logout.LogoutFilter@4fd00e10, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6a95c2f6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2d2afc39, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@797ee1a9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5ec06e97, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7fdf7359, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a36a35d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f190cfe, org.springframework.security.web.session.SessionManagementFilter@2f8ab988, org.springframework.security.web.access.ExceptionTranslationFilter@7d4e424e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@d763b06]
+2025-01-24 09:42 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 09:42 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 09:42 c.e.board.board.BoardApplication-Started BoardApplication in 4.517 seconds (JVM running for 5.024)
+2025-01-24 09:44 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 09:44 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 09:44 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-24 10:17 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 10:17 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 14352 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 10:17 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 10:21 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 10:21 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 21836 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 10:21 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 10:21 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 10:21 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2025-01-24 10:21 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 10:21 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 10:21 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 10:21 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 10:21 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 10:21 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1555 ms
+2025-01-24 10:21 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 10:21 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 10:21 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 10:21 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 10:21 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 10:21 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 10:21 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 10:21 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 10:21 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 09cc2481-782b-4b14-aca2-f716a7a288fd
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-01-24 10:21 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1055d261, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d758472, org.springframework.security.web.context.SecurityContextPersistenceFilter@2682cccc, org.springframework.security.web.header.HeaderWriterFilter@4fe9a396, org.springframework.security.web.authentication.logout.LogoutFilter@698e1bf5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44117b0d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58679ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7615666e, org.springframework.security.web.session.SessionManagementFilter@62159fd, org.springframework.security.web.access.ExceptionTranslationFilter@53d15034, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16c9f7f0]
+2025-01-24 10:21 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 10:21 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 10:21 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 10:21 c.e.board.board.BoardApplication-Started BoardApplication in 4.357 seconds (JVM running for 4.796)
+2025-01-24 10:21 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 10:21 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 10:21 o.s.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-01-24 10:34 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 10:34 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 18940 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 10:34 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 10:34 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 10:34 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2025-01-24 10:34 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 10:34 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 10:34 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 10:34 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 10:34 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 10:34 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1445 ms
+2025-01-24 10:34 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 10:34 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 10:34 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 10:34 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 10:34 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 10:34 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 10:34 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 10:34 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 10:34 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 1efbe7a0-ea84-4f11-9ead-ef05d9521909
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-01-24 10:34 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3dc39412, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d432d56, org.springframework.security.web.context.SecurityContextPersistenceFilter@70a54731, org.springframework.security.web.header.HeaderWriterFilter@6afced93, org.springframework.security.web.authentication.logout.LogoutFilter@4f5c757c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8ce4320, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6369d01c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@54e680fe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@147ad4bb, org.springframework.security.web.session.SessionManagementFilter@22dc9d46, org.springframework.security.web.access.ExceptionTranslationFilter@62dfe152, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16fb9fdd]
+2025-01-24 10:34 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 10:34 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 10:34 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 10:34 c.e.board.board.BoardApplication-Started BoardApplication in 4.049 seconds (JVM running for 4.462)
+2025-01-24 10:34 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 10:34 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 10:34 o.s.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-01-24 10:35 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 10:35 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 18732 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 10:35 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 10:35 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 10:35 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2025-01-24 10:35 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 10:35 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 10:35 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 10:35 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 10:35 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 10:35 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1533 ms
+2025-01-24 10:35 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 10:35 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 10:35 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 10:35 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 10:35 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 10:35 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 10:35 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 10:35 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 10:35 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: a03472c8-4ffc-4cee-b076-49768d8d5295
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-01-24 10:35 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@39a9becc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@177302d6, org.springframework.security.web.context.SecurityContextPersistenceFilter@3462e99a, org.springframework.security.web.header.HeaderWriterFilter@5b028f58, org.springframework.security.web.authentication.logout.LogoutFilter@4fea095b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@244268a8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7320750c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2570851e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2af3b054, org.springframework.security.web.session.SessionManagementFilter@3d1b43d8, org.springframework.security.web.access.ExceptionTranslationFilter@3ac326c0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2dcbf825]
+2025-01-24 10:35 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 10:35 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 10:35 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 10:35 c.e.board.board.BoardApplication-Started BoardApplication in 4.284 seconds (JVM running for 4.736)
+2025-01-24 10:35 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 10:35 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 10:35 o.s.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-01-24 10:36 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 10:36 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 8456 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 10:36 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 10:36 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 10:36 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2025-01-24 10:36 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 10:36 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 10:36 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 10:36 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 10:36 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 10:36 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1471 ms
+2025-01-24 10:36 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 10:36 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 10:36 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 10:36 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 10:36 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 10:36 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 10:36 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 10:36 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 10:36 o.s.b.a.s.s.UserDetailsServiceAutoConfiguration-
+
+Using generated security password: 35d5313a-4db2-4913-bbcc-e3b02a086a3f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-01-24 10:36 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@697b48e4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@137d04d8, org.springframework.security.web.context.SecurityContextPersistenceFilter@10553a61, org.springframework.security.web.header.HeaderWriterFilter@11a7840f, org.springframework.security.web.authentication.logout.LogoutFilter@5300694d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7b92ea9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1896299b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42d7e8bc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25b8f9d2, org.springframework.security.web.session.SessionManagementFilter@4f5c757c, org.springframework.security.web.access.ExceptionTranslationFilter@66d69cd2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19d13d04]
+2025-01-24 10:36 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 10:36 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 10:36 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 10:36 c.e.board.board.BoardApplication-Started BoardApplication in 4.228 seconds (JVM running for 4.659)
+2025-01-24 10:36 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 10:36 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 10:36 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-24 11:16 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 11:16 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 18732 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 11:16 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 11:16 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 11:16 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2025-01-24 11:16 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 11:16 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 11:16 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 11:16 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 11:16 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 11:16 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1506 ms
+2025-01-24 11:16 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 11:16 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 11:16 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 11:16 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 11:16 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 11:16 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 11:16 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 11:16 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 11:16 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@147ad4bb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bd703bb, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b3ee43e, org.springframework.security.web.header.HeaderWriterFilter@6369d01c, org.springframework.security.web.authentication.logout.LogoutFilter@7b6854b5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3c538e62, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18a38bba, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58ca6ba3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a9565d7, org.springframework.security.web.session.SessionManagementFilter@ea0c99c, org.springframework.security.web.access.ExceptionTranslationFilter@70a54731, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@cc7909f]
+2025-01-24 11:16 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 11:16 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 11:16 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 11:16 c.e.board.board.BoardApplication-Started BoardApplication in 4.14 seconds (JVM running for 4.539)
+2025-01-24 11:27 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 11:27 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 6388 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 11:27 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 11:27 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 11:27 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2025-01-24 11:27 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 11:27 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 11:27 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 11:27 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 11:27 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 11:27 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1580 ms
+2025-01-24 11:27 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 11:27 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 11:27 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 11:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 11:27 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 11:27 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 11:27 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 11:27 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 11:27 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7bad18f5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4407fea2, org.springframework.security.web.context.SecurityContextPersistenceFilter@4edde05c, org.springframework.security.web.header.HeaderWriterFilter@5da2966, org.springframework.security.web.authentication.logout.LogoutFilter@787a4519, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@39296cef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7fce1069, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51b41740, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64e3bc2, org.springframework.security.web.session.SessionManagementFilter@5ca7619f, org.springframework.security.web.access.ExceptionTranslationFilter@2fc435e9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@354e2bff]
+2025-01-24 11:27 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 11:27 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 11:27 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 11:27 c.e.board.board.BoardApplication-Started BoardApplication in 4.287 seconds (JVM running for 4.746)
+2025-01-24 11:28 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 11:28 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 11:28 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-24 12:08 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 12:08 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 22116 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 12:08 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 12:08 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 12:08 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2025-01-24 12:08 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 12:08 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 12:08 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 12:08 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 12:08 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 12:08 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1565 ms
+2025-01-24 12:08 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 12:08 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 12:08 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 12:08 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 12:08 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 12:08 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 12:08 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 12:08 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 12:08 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@63062eea, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7bad18f5, org.springframework.security.web.context.SecurityContextPersistenceFilter@fb42c1c, org.springframework.security.web.header.HeaderWriterFilter@bf18412, org.springframework.security.web.authentication.logout.LogoutFilter@3e149513, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@261609a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2911db81, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fce1069, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4407fea2, org.springframework.security.web.session.SessionManagementFilter@52c27d53, org.springframework.security.web.access.ExceptionTranslationFilter@6ad7a305, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4fea095b]
+2025-01-24 12:08 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 12:08 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 12:08 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 12:08 c.e.board.board.BoardApplication-Started BoardApplication in 4.269 seconds (JVM running for 4.752)
+2025-01-24 12:09 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 12:09 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 12:09 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-24 12:21 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 12:21 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 8684 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 12:21 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 12:21 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 12:21 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2025-01-24 12:21 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 12:21 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 12:21 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 12:21 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 12:21 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 12:21 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1715 ms
+2025-01-24 12:21 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 12:21 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 12:21 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 12:21 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 12:21 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 12:21 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 12:21 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 12:21 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 12:21 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2d758472, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7615666e, org.springframework.security.web.context.SecurityContextPersistenceFilter@62159fd, org.springframework.security.web.header.HeaderWriterFilter@665f88e1, org.springframework.security.web.authentication.logout.LogoutFilter@18a38bba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@187df588, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c37ac3c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2682cccc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c49e434, org.springframework.security.web.session.SessionManagementFilter@3ee200ae, org.springframework.security.web.access.ExceptionTranslationFilter@30811f91, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24a7725d]
+2025-01-24 12:21 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 12:21 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 12:21 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 12:21 c.e.board.board.BoardApplication-Started BoardApplication in 4.381 seconds (JVM running for 4.905)
+2025-01-24 12:21 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 12:21 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 12:21 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-24 12:26 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 12:26 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 1384 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 12:26 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 12:26 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 12:26 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2025-01-24 12:26 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 12:26 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 12:26 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 12:26 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 12:26 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 12:26 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1444 ms
+2025-01-24 12:26 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 12:26 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 12:26 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 12:26 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 12:26 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 12:26 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 12:26 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 12:26 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 12:26 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7957aa57, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b92ea9d, org.springframework.security.web.context.SecurityContextPersistenceFilter@32e5fb4c, org.springframework.security.web.header.HeaderWriterFilter@698e1bf5, org.springframework.security.web.authentication.logout.LogoutFilter@5b028f58, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@34d3bfca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d3e5a05, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f5c757c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b3bc1f6, org.springframework.security.web.session.SessionManagementFilter@2ee1b017, org.springframework.security.web.access.ExceptionTranslationFilter@5aa334c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@72641613]
+2025-01-24 12:26 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 12:26 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 12:26 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 12:26 c.e.board.board.BoardApplication-Started BoardApplication in 4.016 seconds (JVM running for 4.451)
+2025-01-24 12:26 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 12:26 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 12:26 o.s.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-01-24 12:36 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 12:36 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 19240 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 12:36 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 12:36 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 12:36 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 75 ms. Found 2 JPA repository interfaces.
+2025-01-24 12:36 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 12:36 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 12:36 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 12:36 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 12:36 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 12:36 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1570 ms
+2025-01-24 12:36 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 12:36 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 12:36 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 12:36 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 12:36 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 12:36 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 12:36 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 12:36 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 12:36 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4d71ec5b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20e3b165, org.springframework.security.web.context.SecurityContextPersistenceFilter@5aa334c, org.springframework.security.web.header.HeaderWriterFilter@74797b90, org.springframework.security.web.authentication.logout.LogoutFilter@627d5f99, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6c25123e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@698e1bf5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a85dc58, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34d3bfca, org.springframework.security.web.session.SessionManagementFilter@720c0996, org.springframework.security.web.access.ExceptionTranslationFilter@18a38bba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@bd703bb]
+2025-01-24 12:36 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 12:36 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 12:36 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 12:36 c.e.board.board.BoardApplication-Started BoardApplication in 4.221 seconds (JVM running for 4.631)
+2025-01-24 12:36 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 12:36 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 12:36 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-24 12:42 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 12:42 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 10072 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 12:42 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 12:42 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 12:42 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2025-01-24 12:42 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 12:42 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 12:42 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 12:42 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 12:42 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 12:42 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1523 ms
+2025-01-24 12:42 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 12:42 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 12:42 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 12:42 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 12:42 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 12:42 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 12:42 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 12:42 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 12:42 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@768d27e8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3dc39412, org.springframework.security.web.context.SecurityContextPersistenceFilter@63c6c5e5, org.springframework.security.web.header.HeaderWriterFilter@7c37ac3c, org.springframework.security.web.authentication.logout.LogoutFilter@11a7840f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@cc7909f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70a54731, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36d5c2ce, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d432d56, org.springframework.security.web.session.SessionManagementFilter@2ae08750, org.springframework.security.web.access.ExceptionTranslationFilter@62159fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10728fe8]
+2025-01-24 12:42 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 12:42 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 12:42 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 12:42 c.e.board.board.BoardApplication-Started BoardApplication in 4.193 seconds (JVM running for 4.632)
+2025-01-24 12:42 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 12:42 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 12:42 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-24 14:01 com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m43s312ms686µs800ns).
+2025-01-24 14:13 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 14:13 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 9124 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 14:13 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 14:13 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 14:13 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2025-01-24 14:13 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 14:13 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:13 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 14:13 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 14:13 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 14:13 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1607 ms
+2025-01-24 14:13 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 14:13 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 14:13 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 14:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 14:13 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 14:13 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 14:13 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 14:13 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 14:13 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c538e62, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ca0a21f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ae08750, org.springframework.security.web.header.HeaderWriterFilter@3fecb076, org.springframework.security.web.authentication.logout.LogoutFilter@66d69cd2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@16fb9fdd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58679ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35d2312f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@768d27e8, org.springframework.security.web.session.SessionManagementFilter@28e8dee7, org.springframework.security.web.access.ExceptionTranslationFilter@3ee200ae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e1d9b32]
+2025-01-24 14:13 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 14:13 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:13 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 14:13 c.e.board.board.BoardApplication-Started BoardApplication in 4.252 seconds (JVM running for 4.64)
+2025-01-24 14:13 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 14:13 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 14:13 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-24 14:23 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 14:23 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 11696 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 14:23 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 14:23 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 14:23 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2025-01-24 14:23 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 14:23 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:23 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 14:23 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 14:23 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 14:23 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1504 ms
+2025-01-24 14:23 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 14:23 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 14:23 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 14:23 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 14:23 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 14:23 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 14:23 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 14:23 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 14:23 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c538e62, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ca0a21f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ae08750, org.springframework.security.web.header.HeaderWriterFilter@3fecb076, org.springframework.security.web.authentication.logout.LogoutFilter@66d69cd2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@16fb9fdd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58679ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35d2312f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@768d27e8, org.springframework.security.web.session.SessionManagementFilter@28e8dee7, org.springframework.security.web.access.ExceptionTranslationFilter@3ee200ae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e1d9b32]
+2025-01-24 14:23 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 14:23 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:23 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 14:23 c.e.board.board.BoardApplication-Started BoardApplication in 4.206 seconds (JVM running for 4.613)
+2025-01-24 14:23 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 14:23 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 14:23 o.s.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-01-24 14:24 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 14:24 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 11252 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 14:24 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 14:24 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 14:24 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2025-01-24 14:24 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 14:24 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:24 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 14:24 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 14:24 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 14:24 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1447 ms
+2025-01-24 14:24 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 14:24 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 14:24 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 14:24 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 14:24 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 14:24 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 14:24 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 14:24 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 14:24 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2e38d44e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c25123e, org.springframework.security.web.context.SecurityContextPersistenceFilter@ea0c99c, org.springframework.security.web.header.HeaderWriterFilter@3f142e87, org.springframework.security.web.authentication.logout.LogoutFilter@3c8e4a82, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3dc39412, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b3f62d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b3ee43e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f5c0eda, org.springframework.security.web.session.SessionManagementFilter@63c6c5e5, org.springframework.security.web.access.ExceptionTranslationFilter@46a0ef6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c538e62]
+2025-01-24 14:24 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 14:24 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:24 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 14:24 c.e.board.board.BoardApplication-Started BoardApplication in 4.068 seconds (JVM running for 4.48)
+2025-01-24 14:24 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 14:24 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 14:24 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-24 14:29 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 14:29 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 21508 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 14:29 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 14:29 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 14:29 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2025-01-24 14:29 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 14:29 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:29 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 14:29 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 14:29 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 14:29 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1477 ms
+2025-01-24 14:29 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 14:29 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 14:29 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 14:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 14:29 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 14:29 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 14:29 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 14:29 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 14:29 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@137d04d8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25b8f9d2, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c8e4a82, org.springframework.security.web.header.HeaderWriterFilter@1d3e5a05, org.springframework.security.web.authentication.logout.LogoutFilter@7320750c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b3bc1f6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42d7e8bc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b6854b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2979c6ef, org.springframework.security.web.session.SessionManagementFilter@52fec840, org.springframework.security.web.access.ExceptionTranslationFilter@32e5fb4c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30d5fc1b]
+2025-01-24 14:29 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 14:29 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:29 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 14:29 c.e.board.board.BoardApplication-Started BoardApplication in 4.027 seconds (JVM running for 4.421)
+2025-01-24 14:29 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 14:29 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 14:29 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-24 14:32 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 14:32 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 1288 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 14:32 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 14:32 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 14:32 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2025-01-24 14:32 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 14:32 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:32 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 14:32 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 14:32 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 14:32 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1510 ms
+2025-01-24 14:32 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 14:32 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 14:32 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 14:32 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 14:32 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 14:32 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 14:32 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 14:32 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 14:32 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@406808eb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14e93c46, org.springframework.security.web.context.SecurityContextPersistenceFilter@2648aa1b, org.springframework.security.web.header.HeaderWriterFilter@6e225c34, org.springframework.security.web.authentication.logout.LogoutFilter@4edde05c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@593354fa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13b4ee4e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f55a864, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@89465d9, org.springframework.security.web.session.SessionManagementFilter@69c0bae6, org.springframework.security.web.access.ExceptionTranslationFilter@7c39193f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76673ed]
+2025-01-24 14:32 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 14:32 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:32 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 14:32 c.e.board.board.BoardApplication-Started BoardApplication in 4.248 seconds (JVM running for 4.718)
+2025-01-24 14:32 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 14:32 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 14:32 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-24 14:33 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 14:33 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 19412 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 14:33 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 14:33 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 14:33 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2025-01-24 14:33 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 14:33 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:33 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 14:33 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 14:33 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 14:33 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1540 ms
+2025-01-24 14:33 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 14:33 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 14:33 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 14:33 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 14:33 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 14:33 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 14:33 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 14:33 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 14:33 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4b7a4c83, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@768e40af, org.springframework.security.web.context.SecurityContextPersistenceFilter@5862dda4, org.springframework.security.web.header.HeaderWriterFilter@2911db81, org.springframework.security.web.authentication.logout.LogoutFilter@7741507c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4407fea2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@fe09374, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e02fb23, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@165824f5, org.springframework.security.web.session.SessionManagementFilter@51b41740, org.springframework.security.web.access.ExceptionTranslationFilter@fb42c1c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@113a6636]
+2025-01-24 14:33 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 14:33 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:33 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 14:33 c.e.board.board.BoardApplication-Started BoardApplication in 4.284 seconds (JVM running for 4.676)
+2025-01-24 14:33 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 14:33 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 14:33 o.s.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-01-24 14:37 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 14:37 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 14712 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 14:37 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 14:37 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 14:37 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2025-01-24 14:37 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 14:37 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:37 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 14:37 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 14:37 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 14:37 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1734 ms
+2025-01-24 14:37 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 14:37 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 14:37 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 14:37 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 14:37 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 14:37 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 14:37 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 14:37 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 14:37 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@17e8c38c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c4516ec, org.springframework.security.web.context.SecurityContextPersistenceFilter@89465d9, org.springframework.security.web.header.HeaderWriterFilter@9dbb1d9, org.springframework.security.web.authentication.logout.LogoutFilter@165824f5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7a92827f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f7241c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32245b66, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17ea3bc0, org.springframework.security.web.session.SessionManagementFilter@58e7f930, org.springframework.security.web.access.ExceptionTranslationFilter@593354fa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e28f150]
+2025-01-24 14:37 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 14:37 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:37 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 14:37 c.e.board.board.BoardApplication-Started BoardApplication in 6.049 seconds (JVM running for 6.757)
+2025-01-24 14:37 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 14:37 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 14:37 o.s.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-01-24 14:39 o.h.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.3.Final
+2025-01-24 14:39 c.e.board.board.BoardApplication-Starting BoardApplication using Java 17.0.13 on LAPTOP-IT8R2MEG with PID 9656 (C:\Users\Playdata\Desktop\board\build\classes\java\main started by Playdata in C:\Users\Playdata\Desktop\board)
+2025-01-24 14:39 c.e.board.board.BoardApplication-The following 1 profile is active: "local"
+2025-01-24 14:39 o.s.d.r.c.RepositoryConfigurationDelegate-Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 14:39 o.s.d.r.c.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2025-01-24 14:39 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat initialized with port(s): 8080 (http)
+2025-01-24 14:39 o.a.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:39 o.a.catalina.core.StandardService-Starting service [Tomcat]
+2025-01-24 14:39 o.a.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.64]
+2025-01-24 14:39 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-01-24 14:39 o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1480 ms
+2025-01-24 14:39 o.h.jpa.internal.util.LogHelper-HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 14:39 org.hibernate.Version-HHH000412: Hibernate ORM core version 5.6.9.Final
+2025-01-24 14:39 o.h.annotations.common.Version-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-01-24 14:39 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-01-24 14:39 com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-01-24 14:39 org.hibernate.dialect.Dialect-HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2025-01-24 14:39 o.h.e.t.j.p.i.JtaPlatformInitiator-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-24 14:39 o.s.o.j.LocalContainerEntityManagerFactoryBean-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 14:39 o.s.s.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5f5c0eda, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e66733b, org.springframework.security.web.context.SecurityContextPersistenceFilter@7676b2b9, org.springframework.security.web.header.HeaderWriterFilter@5b3ee43e, org.springframework.security.web.authentication.logout.LogoutFilter@b63365c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@147ad4bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7910e307, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@460aa24e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3694461d, org.springframework.security.web.session.SessionManagementFilter@18a38bba, org.springframework.security.web.access.ExceptionTranslationFilter@167bb934, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@768d27e8]
+2025-01-24 14:39 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 14:39 o.a.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-01-24 14:39 o.s.b.w.e.tomcat.TomcatWebServer-Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 14:39 c.e.board.board.BoardApplication-Started BoardApplication in 4.214 seconds (JVM running for 4.641)
+2025-01-24 14:40 o.a.c.c.C.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 14:40 o.s.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-01-24 14:40 o.s.web.servlet.DispatcherServlet-Completed initialization in 2 ms

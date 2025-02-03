@@ -36,6 +36,12 @@ dependencies {
 
 //	로그인 관련 의존성 추가
 	implementation 'org.springframework.boot:spring-boot-starter-security'
+
+//	redis 사용을 위한 의존성 추가
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
+//	세션 스토리지를 redis에 저장하기 위한 의존성 추가.
+	implementation 'org.springframework.session:spring-session-data-redis'
 }
 
 tasks.named('test') {
